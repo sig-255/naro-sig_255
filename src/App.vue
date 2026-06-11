@@ -1,11 +1,15 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import WelcomeMessage from './components/WelcomeMessage.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <main>
+    <WelcomeMessage msg="Webエンジニアになろう講習会へようこそ" />
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  padding: 2rem;
+}
+</style>
