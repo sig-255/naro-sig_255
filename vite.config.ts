@@ -17,5 +17,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  base: '/naro-sig_255/', 
+  base: '/naro-sig_255-frontend/', 
 })
